@@ -24,3 +24,14 @@ Things you may want to cover:
 * ...
 # postman collaction 
 https://www.getpostman.com/collections/7133503a273772b0055e
+
+# seed.rb
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
+
+```emails = []
+firstName = []
+lastName = []
+email.each_with_index do |email, index|
+	User.crete(email: email, firstName: firstName[index], lastName: lastName[:index])
+end```
